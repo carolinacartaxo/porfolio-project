@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <meta
+      name="description"
+      content="Contact Carolina. Carolina Cartaxo is a front-end developer based in Brazil" />
+    <title>Contact Carolina - Carolina Cartaxo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,6 +28,34 @@
       crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Carolina logo" />
+          <img
+            src="images/logo-small.jpeg"
+            class="logo d-block d-md-none"
+            alt="Carolina logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Carolina">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Carolina's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Carolina">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -38,14 +69,54 @@
         <a href="https://github.com/carolinacartaxo"
           >github.com/carolinacartaxo</a
         >
-        <p>
-          <a href="#" target="_blank"></a>
-        </p>
         <h3>Instagram</h3>
         <a href="https://www.instagram/carolcartaxo" target="_blank"
           >@carolcartaxo</a
         >
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="" class="btn btn-branding mt-3" title="Contact Carolina"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:carolinamcartaxo@gmail.com"
+            class="email-link mb-5"
+            title="Email Carolina"
+            >carolinamcartaxo@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/carolcartaxo/"
+            title="GitHub Profile">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/carolinacartaxo"
+            title="Instagram Profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="" title="Twitter Profile">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Carolina Cartaxo, and it is
+          <a href="https://github.com/carolinacartaxo/porfolio-project"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

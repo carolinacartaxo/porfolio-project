@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Work page</title>
+    <meta
+      name="description"
+      content="Page with the projects made by Carolina Cartaxo" />
+    <title>Work page - Carolina Cartaxo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,6 +28,34 @@
       crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Carolina logo" />
+          <img
+            src="images/logo-small.jpeg"
+            class="logo d-block d-md-none"
+            alt="Carolina logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Carolina">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Carolina's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Carolina">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -33,7 +64,7 @@
             <img
               src="images/yogurt.png"
               class="img-fluid mb-3 rounded"
-              alt="" />
+              alt="Yogurt Project Preview" />
             <h3 class="text-center mb-0">Yogurt Project</h3>
             <p class="text-center text-muted">Build with HTML and CSS</p>
           </div>
@@ -41,7 +72,7 @@
             <img
               src="images/weather.png"
               class="img-fluid mb-3 rounded"
-              alt="" />
+              alt="Weather Project Preview" />
             <h3 class="text-center mb-0">Weather Project</h3>
             <p class="text-center text-muted">
               Build with HTML, CSS and JavaScript
@@ -51,7 +82,7 @@
             <img
               src="images/dictionary.png"
               class="img-fluid mb-3 rounded"
-              alt="" />
+              alt="Dictionary App Preview" />
             <h3 class="text-center mb-0">Dictionary App</h3>
             <p class="text-center text-muted">Build with HTML, CSS and React</p>
           </div>
@@ -59,12 +90,55 @@
             <img
               src="images/translation.png"
               class="img-fluid mb-3 rounded"
-              alt="" />
+              alt="Translation App Preview" />
             <h3 class="text-center mb-0">Translation App</h3>
             <p class="text-center text-muted">Build with HTML, CSS and React</p>
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="" class="btn btn-branding mt-3" title="Contact Carolina"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:carolinamcartaxo@gmail.com"
+            class="email-link mb-5"
+            title="Email Carolina"
+            >carolinamcartaxo@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/carolcartaxo/"
+            title="GitHub Profile">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/carolinacartaxo"
+            title="Instagram Profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="" title="Twitter Profile">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Carolina Cartaxo, and it is
+          <a href="https://github.com/carolinacartaxo/porfolio-project"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
